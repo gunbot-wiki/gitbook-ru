@@ -2,7 +2,7 @@
 description: Instructions to install Gunbot on a Linux machine.
 ---
 
-# Linux installation
+# Установка на Linux
 
 ## Instructions
 

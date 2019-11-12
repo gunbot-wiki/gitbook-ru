@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the Gunbot wiki](README.md)
+* [Добро пожаловать в Gunbot wiki](README.md)
 
 ## About
 
@@ -18,13 +18,13 @@
 
 ## Setup & general settings
 
-* [Installation & startup](setup-and-general-settings/installation/README.md)
-  * [Download software](setup-and-general-settings/installation/download.md)
-  * [Windows installation](setup-and-general-settings/installation/windows.md)
-  * [macOS installation](setup-and-general-settings/installation/macos.md)
-  * [Linux installation](setup-and-general-settings/installation/linux.md)
+* [Установка и  запуск](setup-and-general-settings/installation/README.md)
+  * [Скачать ПО](setup-and-general-settings/installation/download.md)
+  * [Установка для Windows](setup-and-general-settings/installation/windows.md)
+  * [Установка на macOS](setup-and-general-settings/installation/macos.md)
+  * [Установка на Linux](setup-and-general-settings/installation/linux.md)
   * [ARM installation](setup-and-general-settings/installation/arm.md)
-  * [How to enable SSL/TLS](setup-and-general-settings/installation/enable-ssl-tls.md)
+  * [Как включить SSL/TLS](setup-and-general-settings/installation/enable-ssl-tls.md)
   * [Running multiple instances](setup-and-general-settings/installation/running-multiple-instances.md)
   * [Headless mode](setup-and-general-settings/installation/headless-mode.md)
 * [Preferences](setup-and-general-settings/preferences/README.md)

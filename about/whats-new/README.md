@@ -10,7 +10,7 @@ Gunbot v13 focuses on bugfixes and improving user experience. That's why this ti
 
 ## **Upgrading**
 
-[Download](../../setup-and-general-settings/installation/download.md) the update and unpack it to a new folder, copy the `config.js` and `gunbotgui.db` files from your previous v12 installation into the new folder to keep your settings. 
+[Download](../../setup-and-general-settings/installation/download.md) the update and unpack it to a new folder, copy the `config.js` and `gunbotgui.db` files from your previous v12 installation into the new folder to keep your settings.
 
 * Empty your browser cache for your Gunbot GUI \(for example with ctrl-F5\).
 * In case you used https for the GUI, also make sure to copy both the key and certificate files to the new folder.
@@ -108,10 +108,6 @@ Notable changes to the Telegram bot:
 * Ability to restrict Cryptosight access to one or more Telegram users
 * Fix creation/deletion of pairs. Changes are saved after going back to the main menu.
 * Show contracts and liquidation price for margin
-
-
-
-
 
 ## GUI changes
 

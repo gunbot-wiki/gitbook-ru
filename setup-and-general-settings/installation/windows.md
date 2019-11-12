@@ -1,37 +1,37 @@
 ---
-description: Instructions to install Gunbot on a Windows machine.
+description: Инструкция по установке Gunbot на ПК с ОС Windows.
 ---
 
-# Windows installation
+# Установка для Windows
 
-## Instructions
+## Инструкция
 
-1. Unpack the release .zip file to a new folder
-2. Start running Gunbot by double clicking **gunthy-win.exe**
-3. Open [localhost:5000](http://localhost:5000) in a browser on the same system to access the Gunbot GUI \(modern browsers recommended, preferably Chrome or Firefox\)
-4. Make sure to enter your [registered ERC-20 wallet](../exchange-and-license-settings/gunthy-wallet/) \("Gunthy wallet"\) and your [registered API key](../exchange-and-license-settings/connect-exchange/) in Gunbot before starting the bot core for the first time.
+1. Распакуйте релиз .zip файл в новую папку
+2. Запустите Gunbot, дважды щелкнув на **gunthy-win.exe**
+3. Откройте [localhost:5000](http://localhost:5000) в браузере в той же системе, что позволит получить доступ к графическому интерфейсу Gunbot \(рекомендуются использовать современные браузеры, предпочтительно Chrome или Firefox\)
+4. Обязательно введите ваш [зарегистрированный ERC-20 кошелек](../exchange-and-license-settings/gunthy-wallet/) \("кошелек Gunthy"\) и зарегистрированный ключ API в Gunbot, перед первым запуском бота.
 
 {% hint style="info" %}
-Depending on your systems settings, you may need to add a firewall rule to allow for incoming traffic on TCP port 5000.
+В зависимости от настроек вашей системы, вам может потребоваться добавить правило брандмауэра, чтобы разрешить входящий трафик через TCP-порт 5000.
 {% endhint %}
 
 {% hint style="info" %}
-### Note for core users
+### Примечание для core пользователей
 
-the default setting is that the GUI starts automatically, but pair processing does not. Set `"start": true,` in `config.js` to start processing pairs.
+Настройка по умолчанию - графический интерфейс запускается автоматически, а обработка торговых пар \(торговля\) - нет. Установите «start»: true, в config.js, чтобы запустить торговля запускалась автоматически при старте.
 {% endhint %}
 
 {% hint style="danger" %}
-### Security notice
+### Меры предосторожности
 
-Gunbot is intended to run on your local system. Making the Gunbot GUI available from outside networks is inherently risky, only do so on your own responsibility.
+Gunbot предназначен для работы в вашей локальной системе. 
 
-Considerable efforts went into securing the GUI, but please understand that achieving 100% security is not realistic.
+Создание графического интерфейса Gunbot, доступного и для внешних сетей, что по своей сути рискованно, поэтому возможно только в случае, если пользователь соглашается на данные риски.
 {% endhint %}
 
-## Installation video
+## Видео инструкция
 
 {% embed url="https://youtu.be/ZGDSZbYmWDc" caption="" %}
 
-_The video above was made for Gunbot v10, however the basic steps still apply._
+_Видео сделано на основе Gunbot v10, однако все базовые шаги одинаковы и для новых версий._
 

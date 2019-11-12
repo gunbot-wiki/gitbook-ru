@@ -44,8 +44,6 @@ _Replace_ `EXCHANGE` _with the name of your exchange._
 | SELL\_EXCHANGE\_USDT-BTC | Sell BTC for USDT |
 | STOPLOSS\_EXCHANGE\_BTC-ETH | Sell ETH for BTC if stoploss is triggered |
 
-
-
 #### Alerts for margin trading  on Bitmex and Bitfinex
 
 | Alert message | Action |
@@ -60,12 +58,10 @@ _Replace_ `EXCHANGE` _with the name of your exchange._
 {% hint style="info" %}
 **Note about trading limits on Bitmex and Bitfinex**
 
-On Bitmex, every setting related to trading limits for margin trading must be specified in contracts.   
-  
+On Bitmex, every setting related to trading limits for margin trading must be specified in contracts.
+
 On Bitfinex, every setting related to margin trading limits must be specified in amounts of quote currency.
 {% endhint %}
-
-
 
 #### Alerts for margin trading at Kraken, Poloniex and Huobi.
 
@@ -82,7 +78,7 @@ To run Gunbot with the TradingView add-on, the following are the only relevant s
 
 Open the settings by going to **Settings** &gt; **TradingView.**
 
-![Settings options for the TradingView add-on](../../.gitbook/assets/image%20%2840%29.png)
+![Settings options for the TradingView add-on](../../.gitbook/assets/image-40.png)
 
 Trading limits for buy orders are set in the configuration settings, optionally you can override these by specifying the trading limit in the alert message contents.
 

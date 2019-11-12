@@ -1,10 +1,10 @@
 ---
-description: Quick guides to get up and running on all supported platforms.
+description: Краткое руководство по настройке и запуску на всех поддерживаемых платформах.
 ---
 
-# Installation & startup
+# Установка и  запуск
 
-## Download Gunbot
+## Скачать Gunbot
 
 {% page-ref page="download.md" %}
 
