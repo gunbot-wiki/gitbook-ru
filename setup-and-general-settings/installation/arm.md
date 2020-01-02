@@ -1,10 +1,10 @@
 ---
-description: Instructions to install Gunbot on an ARMv7 machine.
+description: Инструкция по установке Gunbot на ПК с ОС ARMv7.
 ---
 
-# ARM installation
+# Установка на ARM
 
-## Instructions
+## Инструкции
 
 1. Unpack the release .zip file to a new folder. Then, from a terminal window, make sure Gunbot is executable:
 

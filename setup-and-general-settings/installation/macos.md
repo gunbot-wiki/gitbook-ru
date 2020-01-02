@@ -1,5 +1,5 @@
 ---
-description: IИнструкция по установке Gunbot на ПК с macOS.
+description: Инструкция по установке Gunbot на ПК с macOS.
 ---
 
 # Установка на macOS

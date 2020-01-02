@@ -23,7 +23,7 @@
   * [Установка для Windows](setup-and-general-settings/installation/windows.md)
   * [Установка на macOS](setup-and-general-settings/installation/macos.md)
   * [Установка на Linux](setup-and-general-settings/installation/linux.md)
-  * [ARM installation](setup-and-general-settings/installation/arm.md)
+  * [Установка на ARM](setup-and-general-settings/installation/arm.md)
   * [Как включить SSL/TLS](setup-and-general-settings/installation/enable-ssl-tls.md)
   * [Running multiple instances](setup-and-general-settings/installation/running-multiple-instances.md)
   * [Headless mode](setup-and-general-settings/installation/headless-mode.md)

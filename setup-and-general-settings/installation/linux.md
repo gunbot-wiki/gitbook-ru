@@ -1,5 +1,5 @@
 ---
-description: Инструкция по установке Gunbot на Linux.
+description: Инструкция по установке Gunbot на ПК с ОС Linux.
 ---
 
 # Установка на Linux
