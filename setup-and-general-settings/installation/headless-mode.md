@@ -12,23 +12,23 @@ description: Информация о запуске Gunbot в режиме Headl
 
 ## Описание файла Config
 
-All Gunbot settings are defined in a single file named `config.js`. This is where you set up your exchange API keys, add pairs and define your strategies.
+Все настройки Gunbot определены в одном файле с именем `config.js`. Здесь вы добавляете свои ключи API, добавляете торговые пары и определяете свои стратегии.
 
-You can refer to the included `config-js-example.txt` file for an example of a config file with properly defined pairs and all needed parameters for adding each exchange. Throughout this wiki you'll find detailed descriptions for every parameter available in the config file.
+Вы можете обратиться к прилагаемому файлу `config-js-example.txt` за примером файла конфигурации с правильно определенными парами и всеми необходимыми параметрами для добавления каждого обмена. В wiki вы найдете подробное описание каждого параметра, доступного в файле конфигурации.
 
-When the config file is overwritten while Gunbot is running, the changed settings will be loaded automatically.
+Когда файл конфигурации будет перезаписан во время работы Gunbot, измененные настройки будут загружены автоматически.
 
-Make sure that no parameters are removed when setting it up. Make sure the JSON-formatting stays intact. If you are unsure about your config file, you can validate it on [https://jsonlint.com](https://jsonlint.com) \(or a similar JSON validator\).
+Убедитесь, что никакие параметры не удаляются при настройке. Убедитесь, что JSON-форматирование не повреждено. Если вы не уверены в своем конфигурационном файле, вы можете проверить его на [https://jsonlint.com](https://jsonlint.com) \(или аналогичном валидаторе JSON\).
 
-The only actions that require using the GUI are:
+Действия, которые требуют использования графического интерфейса:
 
-* Updating master keys
-* Updating the GUNTHY wallet address
-* Transferring the software license to a third party
+* Обновление мастер-ключей
+* Обновление адреса GUNTHY кошелька
+* Передача лицензии на программное обеспечение третьей стороне
 
-## Disabling the GUI
+## Отключение графического интерфейса
 
-To disable the GUI completely, make the following change in the GUI section of `config.js`:
+Чтобы полностью отключить графический интерфейс, необходимо внести следующее изменение в разделе GUI файла `config.js`:
 
 ```text
 "GUI": {

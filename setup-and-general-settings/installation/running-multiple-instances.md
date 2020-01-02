@@ -1,20 +1,18 @@
 ---
-description: Инструкция по запуску нескольких экземпляров приложения Gunbot на одном ПК.
+description: Instructions to run multiple installations of Gunbot on the same machine.
 ---
 
-# Запуск нескольких экземпляров приложения
+# Running multiple instances
 
-Чтобы запустить несколько экземпляров Gunbot, просто создайте копию его папки для каждого экземпляра и убедитесь, что следующие параметры настройки уникальны для каждого экземпляра:
+To run multiple instances of Gunbot, just make a copy of its folder for each instance and make sure the following settings parameters are unique for each instance:
 
-* `port` - как в разделе GUI, так и в разделе ws
-* `clientport` - в разделе ws
-* `TOKEN` - в разделе bot \(это токен для уведомлений Telegram\)
+* `port` - both in the GUI and ws section
+* `clientport` - in the ws section
+* `TOKEN` in the bot section \(this is the token for Telegram notifications\)
 
-Графический интерфейс каждого экземпляра будет доступен на локальном хосте через указанный номер порта.
+The GUI of each instance will be available on localhost through the specified port number.
 
 {% hint style="info" %}
-Используйте текстовый редактор, например Notepad ++, для редактирования файла config.js и внесения необходимых изменений, описанных выше.
+Use a text editor like Notepad++ to edit the `config.js` file to make the required changes described above.
 {% endhint %}
-
-
 
