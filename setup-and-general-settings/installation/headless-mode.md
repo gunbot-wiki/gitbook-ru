@@ -1,16 +1,16 @@
 ---
-description: Information about running Gunbot in headless mode.
+description: Информация о запуске Gunbot в режиме Headless mode – «беспилотный режим».
 ---
 
-# Headless mode
+# Headless mode – «Беспилотный режим»
 
 {% hint style="info" %}
-This article is meant for power users who want to run Gunbot without using the GUI.
+Эта статья предназначена для опытных пользователей, которые хотят запускать Gunbot без использования графического интерфейса. 
 
-This is not an exhaustive overview of all available settings, just a quick overview of how to manually work with the config file. Refer to other parts of the wiki for detailed settings descriptions.
+Это не полный обзор всех доступных настроек, а лишь краткий обзор того, как вручную работать с файлом конфигурации. Обратитесь к другим частям wiki для ознакомления с подробным описанием настроек.
 {% endhint %}
 
-## Config file system
+## Описание файла Config
 
 All Gunbot settings are defined in a single file named `config.js`. This is where you set up your exchange API keys, add pairs and define your strategies.
 

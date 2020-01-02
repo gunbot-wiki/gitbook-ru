@@ -26,13 +26,11 @@ description: Инструкция по запуску интерфейса бр�
 
 ### **Mac**
 
-1. Откройте окно терминала и перейдите в папку Gunbot
-2. Выполните следующую команду: `openssl req -newkey rsa:2048 -nodes -keyout localhost.key -x509 -days 365 -out localhost.crt` и обязательно введите в поле код страны. Остальные поля можно оставить пустыми.
+1. Open a terminal window and navigate to your Gunbot folder
+2. Run the following command `openssl req -newkey rsa:2048 -nodes -keyout localhost.key -x509 -days 365 -out localhost.crt` and make sure to enter the country code field. The rest can be left blank
 
 ### **Linux**
 
-1. Откройте окно терминала и перейдите в папку Gunbot. Возможно, вам нужно будет сначала установить openssl через менеджер пакетов.
-2. Выполните следующую команду: `openssl req -newkey rsa:2048 -nodes -keyout localhost.key -x509 -days 365 -out localhost.crt` 
-
-   и обязательно введите в поле код страны. Остальные поля можно оставить пустыми.
+1. Open a terminal window and navigate to your Gunbot folder. Possibly you'll need to install openssl through your package manager first.
+2. Run the following command `openssl req -newkey rsa:2048 -nodes -keyout localhost.key -x509 -days 365 -out localhost.crt` and make sure to enter the country code field. The rest can be left blank.
 
