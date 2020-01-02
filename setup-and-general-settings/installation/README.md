@@ -8,9 +8,9 @@ description: Краткое руководство по настройке и з
 
 {% page-ref page="download.md" %}
 
-## Инструкции по установке
+## Installation instructions
 
-Инструкцию по установке для каждой ОС вы можете найти ниже:
+Installation guides per platform can be found here:
 
 {% page-ref page="windows.md" %}
 
@@ -20,11 +20,11 @@ description: Краткое руководство по настройке и з
 
 {% page-ref page="arm.md" %}
 
-## Обновление
+## Upgrading
 
-Инструкции по обновлению Gunbot находятся внутри [changelog](../../about/whats-new/) последнего релиза.
+Instructions on how to upgrade Gunbot are usually found in the release [changelog](../../about/whats-new/).
 
-Для минорных релизов \(таких как патчи\) как правило достаточно просто заменить исполняемые файлы.
+For minor releases \(like patches\) it is usually enough to just overwrite the gunthy executable file.
 
-Для мажорных релизов, следуйте инструкции в changelog.
+For major releases, follow the steps described in the changelog.
 

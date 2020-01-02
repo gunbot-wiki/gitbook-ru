@@ -45,14 +45,12 @@ description: 'Вики написана для последней стабиль
 | `tssl` | [Regular](trading-strategy-options/regular-strategies-spot-trading/tssl-trailing-stop-stop-limit.md) | [Margin](trading-strategy-options/margin-trading-strategies/tssl-trailing-stop-stop-limit.md) |
 
 {% hint style="warning" %}
-## Уведомление о рисках
+## Disclaimer
 
-Информация, представленная в этой вики, не является инвестиционным советом, финансовым советом, советами по торговле или любым другим видом финансового консультирования. Gunbot не рекомендует покупать, продавать или хранить какие-либо активы. Ничто на этом сайте не должно восприниматься как предложение купить, продать или держать криптовалюту. 
+The information provided on this wiki does not constitute investment advice, financial advice, trading advice, or any other sort of advice, and you should not treat any of the wiki's content as such. Gunbot does not recommend that any asset should be bought, sold, or held by you. Nothing on this website should be taken as an offer to buy, sell or hold a cryptocurrency.
 
-Проведите собственную экспертизу и проконсультируйтесь с финансовым консультантом, прежде чем принимать какое-либо инвестиционное решение. Gunbot не будет нести ответственность за инвестиционные решения, которые вы принимаете на основе информации, опубликованной в этой вики.
+Do conduct your own due diligence and consult your financial advisory before making any investment decision. Gunbot will not be held responsible for the investment decisions you make based on the information published on this wiki.
 {% endhint %}
 
-
-
-**Происхождение проекта:** [BitcoinTalk thread](https://bitcointalk.org/index.php?topic=1715214.0).
+**Project origin:** [BitcoinTalk thread](https://bitcointalk.org/index.php?topic=1715214.0).
 

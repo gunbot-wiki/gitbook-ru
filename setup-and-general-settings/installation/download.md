@@ -5,7 +5,7 @@ description: Актуальные ссылки для скачивания Gunbo
 # Скачать ПО
 
 {% hint style="info" %}
-**Подсказка:** Добавь в закладки ссылки на скачивание Gunbot, по тем же ссылкам будут публиковаться обновления.
+**Подсказка:** Добавь в закладки ссылки на скачивание Gunbot edition, по тем же ссылкам будут публиковаться обновления.
 {% endhint %}
 
 **Gunbot Standard edition или выше:** [https://github.com/GuntharDeNiro/BTCT/releases](https://github.com/GuntharDeNiro/BTCT/releases)

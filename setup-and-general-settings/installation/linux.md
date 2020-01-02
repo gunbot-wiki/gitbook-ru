@@ -1,37 +1,39 @@
 ---
-description: Instructions to install Gunbot on a Linux machine.
+description: Инструкция по установке Gunbot на Linux.
 ---
 
 # Установка на Linux
 
-## Instructions
+## Инструкция
 
-1. Unpack the release .zip file to a new folder. Then, from a terminal window, make sure Gunbot is executable:
+1. Распакуйте релиз .zip файл в новую папку. Затем убедитесь что исполняемый файл Gunthy имеет права на выполнение:
 
    `chmod +x gunthy-linux`
 
-2. Start running Gunbot with the following command. Keep this terminal window open.
+2. Запустите Gunbot использую команду ниже. Не закрывайте окно терминала.
 
    `./gunthy-linux`
 
-3. Open `localhost:5000` in a browser on the same system to access the Gunbot GUI \(modern browsers recommended, preferably Chrome or Firefox\)
-4. Make sure to enter your [registered ERC-20 wallet](../exchange-and-license-settings/gunthy-wallet/) \("Gunthy wallet"\) and your [registered API key](../exchange-and-license-settings/connect-exchange/) in Gunbot before starting the bot core for the first time.
+3. Откройте`localhost:5000` в браузере в той же системе, что позволит получить доступ к графическому интерфейсу Gunbot \(рекомендуются использовать современные браузеры, предпочтительно Chrome или Firefox\)
+4. Обязательно введите ваш [зарегистрированный ERC-20 кошелек](../exchange-and-license-settings/gunthy-wallet/) \("кошелек Gunthy"\) и ваш [зарегистрированный API ](../exchange-and-license-settings/connect-exchange/)ключ в Gunbot, перед первым запуском бота.
 
 {% hint style="info" %}
-Depending on your systems settings, you may need to add a firewall rule to allow for incoming traffic on TCP port 5000.
+В зависимости от настроек вашей системы, вам может потребоваться добавить правило брандмауэра, чтобы разрешить входящий трафик через TCP-порт 5000.
 {% endhint %}
 
 {% hint style="info" %}
-### Note for core users
+### Примечание для пользователей консоли
 
-the default setting is that the GUI starts automatically, but pair processing does not. Set `"start": true,` in `config.js` to start processing pairs.
+настройка по умолчанию - графический интерфейс запускается автоматически, торговое ядро - нет. Установите «start»: true, в config.js, чтобы запускать бот автоматически.
 {% endhint %}
 
 {% hint style="danger" %}
-### Security notice
+### Меры предосторожности
 
-Gunbot is intended to run on your local system. Making the Gunbot GUI available from outside networks is inherently risky, only do so on your own responsibility.
+Gunbot предназначен для работы в вашей локальной системе. Создание графического интерфейса Gunbot, доступного для внешних сетей, по своей сути рискованно, поэтому возможно только в случае, если пользователь соглашается на данные риски.
 
-Considerable efforts went into securing the GUI, but please understand that achieving 100% security is not realistic.
+Разработчики приложили массу усилий для обеспечения безопасности графического интерфейса, однако достижение 100% безопасности не может быть гарантировано никогда.
 {% endhint %}
+
+
 
