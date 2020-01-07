@@ -35,11 +35,11 @@ description: Информация о запуске Gunbot в режиме Headl
         "enabled": false,
 ```
 
-## Connecting exchanges
+## Подключение бирж
 
-To connect an exchange, add the relevant settings to the exchange section of `config.js`.
+Для подключение новой биржи добавьте следующие опции в раздел exchange файла `config.js`.
 
-It looks like this:
+Пример:
 
 ```text
 "binance": {
@@ -52,7 +52,7 @@ It looks like this:
         },
 ```
 
-Note that you can use a different API key for trading than the registered key. If you don't use a secondary key, you can just enter the registered key in the `key` parameter.
+Обратите внимание, что вы можете использовать другой API-ключ для торгов, а не зарегистрированный ключ. Если вы не используете вторичный ключ, вы можете просто ввести зарегистрированный ключ в соответствующем параметре ключа.
 
 ## Strategies
 
