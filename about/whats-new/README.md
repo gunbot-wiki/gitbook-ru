@@ -4,7 +4,7 @@ description: >-
   v13.
 ---
 
-# What's new?
+# Что нового?
 
 Gunbot v13 focuses on bugfixes and improving user experience. That's why this time there is no long list of new features, just a long list of improvements.
 
